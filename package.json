@@ -11,6 +11,7 @@
   "author": "thund3rhawk",
   "license": "ISC",
   "dependencies": {
+    "@prisma/client": "^6.1.0",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "prettier": "^3.4.2",
