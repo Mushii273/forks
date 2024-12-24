@@ -30,11 +30,11 @@ This is a Node.js, Express, Prisma, and TypeScript template designed to help you
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/Thund3rHawk/NEPT.git
+    git clone https://github.com/Thund3rHawk/NEPT-Template.git
     ```
 2. Install dependencies:
     ```sh
-    cd NEPT
+    cd NEPT-Template
     npm install
     ```
 3. **Set Up Environment Variables**:
