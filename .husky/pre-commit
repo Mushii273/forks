@@ -7,6 +7,12 @@ npm run lint ||
     false; 
 )
 
+npm run test ||
+(
+    echo 'Test Check Failed. Make sure your local server is running, review the listed issues, make the required adjustments, add the changes, and attempt to commit again.'
+    false; 
+)
+
 prettier . --check ||
 (
     echo 'Run `npx prettier . --write` to fix.'

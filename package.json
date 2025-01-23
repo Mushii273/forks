@@ -7,6 +7,7 @@
     "prepare": "husky",
     "lint": "eslint",
     "build": "tsc",
+    "test": "jest",
     "start": "npx ts-node src/index.ts",
     "dev": "nodemon -r ts-node src/index.ts",
     "db:migrate": "NODE_PATH=dist/ node --env-file=.env dist/db/migration.js"
@@ -15,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "@prisma/client": "^6.1.0",
+    "axios": "^1.7.9",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "prettier": "^3.4.2",
@@ -22,13 +24,16 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.18.0",
+    "@jest/globals": "^29.7.0",
     "@types/express": "^5.0.0",
+    "@types/jest": "^29.5.14",
     "@types/node": "^22.10.2",
     "eslint": "^9.18.0",
     "globals": "^15.14.0",
     "husky": "^9.1.7",
     "nodemon": "^3.1.9",
     "prisma": "^6.1.0",
+    "ts-jest": "^29.2.5",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.21.0"
