@@ -29,37 +29,37 @@ This is a Node.js, Express, Prisma, and TypeScript template designed to help you
 ### Installation
 
 1. Clone the repository:
-    ```sh
-    git clone https://github.com/Thund3rHawk/NEPT-Template.git
-    ```
+   ```sh
+   git clone https://github.com/Thund3rHawk/NEPT-Template.git
+   ```
 2. Install dependencies:
-    ```sh
-    cd NEPT-Template
-    npm install
-    ```
+   ```sh
+   cd NEPT-Template
+   npm install
+   ```
 3. **Set Up Environment Variables**:
 
-    This project uses environment variables to manage configuration. You can find a sample configuration file named `.env.sample` in the root directory. To set up your environment variables, follow these steps:
+   This project uses environment variables to manage configuration. You can find a sample configuration file named `.env.sample` in the root directory. To set up your environment variables, follow these steps:
 
-     1. Copy the `.env.sample` file to a new file named `.env`:
-          ```sh
-          cp .env.sample .env
-          ```
-     2. Open the `.env` file and update the values as needed for your local development environment.
+   1. Copy the `.env.sample` file to a new file named `.env`:
+      ```sh
+      cp .env.sample .env
+      ```
+   2. Open the `.env` file and update the values as needed for your local development environment.
 
-     Make sure not to commit your `.env` file to version control to keep your sensitive information secure.
+   Make sure not to commit your `.env` file to version control to keep your sensitive information secure.
 
 4. Set up the database:
-    ```sh
-    npx prisma generate
-    ```
+   ```sh
+   npx prisma generate
+   ```
 
 ### Running the Application
 
 1. Start the development server:
-    ```sh
-    npm run dev
-    ```
+   ```sh
+   npm run dev
+   ```
 2. The server will be running at `http://localhost:8080`.
 
 ## Project Structure
@@ -91,7 +91,6 @@ NEPT
 ├── README.md
 └── tsconfig.json
 ```
-
 
 ## Contributing
 

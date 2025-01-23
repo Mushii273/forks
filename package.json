@@ -7,7 +7,9 @@
     "start": "npx ts-node src/index.ts",
     "build": "tsc",
     "dev": "nodemon -r ts-node src/index.ts",
-    "db:migrate": "NODE_PATH=dist/ node --env-file=.env dist/db/migration.js"
+    "db:migrate": "NODE_PATH=dist/ node --env-file=.env dist/db/migration.js",
+    "prepare": "husky",
+    "lint": "eslint"
   },
   "author": "thund3rhawk",
   "license": "ISC",
@@ -19,11 +21,16 @@
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
+    "@eslint/js": "^9.18.0",
     "@types/express": "^5.0.0",
     "@types/node": "^22.10.2",
+    "eslint": "^9.18.0",
+    "globals": "^15.14.0",
+    "husky": "^9.1.7",
     "nodemon": "^3.1.9",
     "prisma": "^6.1.0",
     "tsx": "^4.19.2",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.21.0"
   }
 }
