@@ -4,12 +4,12 @@
   "description": "NEPT - Node Express Prisma Typescript template",
   "main": "src/index.ts",
   "scripts": {
-    "start": "npx ts-node src/index.ts",
-    "build": "tsc",
-    "dev": "nodemon -r ts-node src/index.ts",
-    "db:migrate": "NODE_PATH=dist/ node --env-file=.env dist/db/migration.js",
     "prepare": "husky",
-    "lint": "eslint"
+    "lint": "eslint",
+    "build": "tsc",
+    "start": "npx ts-node src/index.ts",
+    "dev": "nodemon -r ts-node src/index.ts",
+    "db:migrate": "NODE_PATH=dist/ node --env-file=.env dist/db/migration.js"
   },
   "author": "thund3rhawk",
   "license": "ISC",

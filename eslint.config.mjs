@@ -19,6 +19,7 @@ export default [
       '!node_modules/', // unignore `node_modules/` directory
       'node_modules/*', // ignore its content
       '!node_modules/mylibrary/', // unignore `node_modules/mylibrary` directory
+      'dist/', // ignore `dist/` directory
     ],
   },
 ];
