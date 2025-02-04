@@ -38,6 +38,7 @@ This is a Node.js, Express, Prisma, and TypeScript template designed to help you
    npm install
    ```
 3. **Set Up Environment Variables**:
+4. musaib ahmed
 
    This project uses environment variables to manage configuration. You can find a sample configuration file named `.env.sample` in the root directory. To set up your environment variables, follow these steps:
 
@@ -49,7 +50,7 @@ This is a Node.js, Express, Prisma, and TypeScript template designed to help you
 
    Make sure not to commit your `.env` file to version control to keep your sensitive information secure.
 
-4. Set up the database:
+5. Set up the database:
    ```sh
    npx prisma generate
    ```
